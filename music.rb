@@ -37,7 +37,7 @@ music_library = {
   :Justin_Bieber => "Baby"
 }
 
-puts list_artist(music_library)
+puts list_artists(music_library)
 
 
 
