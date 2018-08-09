@@ -28,7 +28,7 @@ end
 # This method should accept three arguments, the library hash, the artist, and the song.
 
 def add_song_and_artist(music_library, artist, song)
-  music_library["artist"] = song.to_s 
+  music_library["#{artist}"] = song.to_s 
   return music_library
 end
 
