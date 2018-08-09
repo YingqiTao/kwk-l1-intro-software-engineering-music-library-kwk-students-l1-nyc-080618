@@ -33,8 +33,12 @@ def add_artist_song(music_library, artist, song)
 end
 
 music_library = {
-  :Taylor_Swift => "Reputation",
-  :Justin_Bieber => "Baby"
+  :taylor_swift, "Style", 
+  :silento, "Watch Me", 
+  :selena_gomez, "Good For You", 
+  :mark_ronson, "Uptown Funk!", 
+  :andy_grammer, "Honey I'm Good", 
+  :maroon_five, "Sugar"
 }
 
 puts list_artists(music_library)
