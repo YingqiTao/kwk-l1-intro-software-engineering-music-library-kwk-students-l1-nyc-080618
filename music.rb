@@ -34,11 +34,11 @@ end
 
 music_library = {
   :taylor_swift => "Style", 
-  :silento, "Watch Me", 
-  :selena_gomez, "Good For You", 
-  :mark_ronson, "Uptown Funk!", 
-  :andy_grammer, "Honey I'm Good", 
-  :maroon_five, "Sugar"
+  :silento => "Watch Me", 
+  :selena_gomez => "Good For You", 
+  :mark_ronson => "Uptown Funk!", 
+  :andy_grammer => "Honey I'm Good", 
+  :maroon_five => "Sugar"
 }
 
 puts list_artists(music_library)
