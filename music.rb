@@ -32,7 +32,9 @@ def add_artist_song(music_library, artist, song)
   return music_library
 end
 
-music_library 
+music_library = {
+  
+}
 
 
 
