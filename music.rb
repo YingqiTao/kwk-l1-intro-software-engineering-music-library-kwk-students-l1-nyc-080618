@@ -33,8 +33,11 @@ def add_artist_song(music_library, artist, song)
 end
 
 music_library = {
-  :Taylor_Swift
+  :Taylor_Swift => "Reputation"
+  :Justin_Bieber => "Baby"
 }
+
+puts list_artist(music_library)
 
 
 
