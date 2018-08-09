@@ -2,7 +2,7 @@
 # This method should accept a hash as an argument.
 
 def list_artists(music_library)
-  music_library.each do |artist|
+  music_library.each_key do |artist|
     puts "#{artist}"
   end 
 end
@@ -11,7 +11,7 @@ end
 # This method should accept a hash as an argument.
 
 def list_songs(music_library)
-  music_library.each do |song|
+  music_library.each_value do |song|
     puts "#{song}"
   end
 end
