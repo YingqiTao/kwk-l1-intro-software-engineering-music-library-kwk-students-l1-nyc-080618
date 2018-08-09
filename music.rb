@@ -33,7 +33,7 @@ def add_artist_song(music_library, artist, song)
 end
 
 music_library = {
-  :taylor_swift, "Style", 
+  :taylor_swift => "Style", 
   :silento, "Watch Me", 
   :selena_gomez, "Good For You", 
   :mark_ronson, "Uptown Funk!", 
